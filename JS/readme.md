@@ -1,6 +1,6 @@
-JS Core
+JS CORE
 
-1. variables
+- VARIABLES AND HOISTING
   - var
     - var Scope
     - var Hoisting
@@ -14,7 +14,7 @@ JS Core
     - const Object
     - const Array
     - const Hoisting
- */
+  - Temporal/Temporary Dead Zone (TDZ)
 
-2. Expression and Operators
+- OPERATORS
   - 

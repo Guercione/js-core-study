@@ -1,6 +1,6 @@
 JS CORE
 
-- VARIABLES AND HOISTING
+- VARIABLES, TYPES AND HOISTING
   - var
     - var Scope
     - var Hoisting
@@ -17,4 +17,11 @@ JS CORE
   - Temporal/Temporary Dead Zone (TDZ)
 
 - OPERATORS
-  - 
+  - Assignment operators (no binary)
+    - Equal assignment
+    - Addition assignment
+    - Subtraction assignment
+    - Multiplication assignment
+    - Division assignment
+    - Remainder assignment
+    - Exponentiation assignment

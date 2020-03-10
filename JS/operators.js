@@ -2,7 +2,6 @@
 Operators
 
 Types of operators:
- - Common operators
  - Assignment operators
  - Comparison operators
  - Arithmetic operators

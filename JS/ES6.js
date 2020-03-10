@@ -10,7 +10,7 @@ Features
 - Default value to a param
 - Destructuring (const { test } = object / [a, b, ...rest] = [10, 20, 30, 40, 50])
 - Spread
-- Template Literals ( `Text ${var}` )
+- Template Literals/Template strings ( `Text ${var}` )
 - Short sintax to object (user: { name } name = name: name)
 - Import (import React from “react”)
 - Async and Await
@@ -22,7 +22,7 @@ Features
  - https://medium.com/@kavisha.talsania/top-10-es6-features-every-javascript-developer-must-know-4c81ec54bbcd
 */
 
-/* 1. Class and Static function on Class and Template Literals */
+/* 1. Class and Static function on Class and Template Literals/Template strings */
 class App {
     constructor(name, age) {
         this.name = name

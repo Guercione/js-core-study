@@ -12,6 +12,10 @@ Temporal/Temporary Dead Zone (TDZ)
  - In Creation Phase a memory space is allocate for variables 'var' and the 'initializer' set the varible value to 'undefined'. In the Execution Phase the engine goes through the code and executes.
  - With ES6 features (let, const, default parameters, etc) the 'initializer' set the variables with a special mode called 'TDZ (Temporal Dead Zone)', which means the variables exist but you can’t access them until you assign some value.
 
+Primitives and Non-Primitives
+ - Primitives types are immutable values, which are incapable of being changed (not to be confused with changing the value of the variable).
+ - The opposite of primitives, the Non-Primitives are mutable.
+
  Links: 
  - https://tylermcginnis.com/var-let-const/
  - https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
@@ -252,10 +256,7 @@ b(); // Cannot access 'x' before initialization (TDZ)
 
 
 /* 5. Types */
-/* 
-5.1 Primitives 
-Primitives types are immutable values, which are incapable of being changed (not to be confused with changing the value of the variable).
-*/
+/* 5.1 Primitives */
 /* 5.1.1 number */
 var x = 1 
 
@@ -282,10 +283,7 @@ var y = Symbol('symbol')
 /* 5.1.7 bigInt (ES2020) */
 var x = 2n ** 53n // 9007199254740992n
 
-/* 
-5.1 Non-Primitives 
-The opposite of primitives, the Non-Primitives are mutable.
-*/
+/* 5.1 Non-Primitives */
 /* 5.2.1 object */
 var obj = { x: 1, y: 2 }
 

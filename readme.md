@@ -1,4 +1,4 @@
-JS Core topics from the novice to advanced to study
+JS Core topics from the novice to advanced to study (in development)
 
 - VARIABLES, TYPES AND HOISTING
   - var
@@ -15,6 +15,17 @@ JS Core topics from the novice to advanced to study
     - const Array
     - const Hoisting
   - Temporal/Temporary Dead Zone (TDZ)
+  - Types
+    - Primitives
+      - number
+      - string
+      - boolean
+      - null
+      - undefined
+      - symbol (ES2015)
+      - bigInt (ES2020)
+    - Non-Primitives
+      - object
 
 - OPERATORS
   - Assignment operators (no binary)
